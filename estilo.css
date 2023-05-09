@@ -1,5 +1,155 @@
-/* font-family: 'Kaisei HarunoUmi', sans-serif;*/
-/* font-family: 'Merchant', sans-serif;*/
-/*font-family: 'Andine', sans-serif;*/
-                                                
-                                                
+
+*{margin:0;
+    padding:0;
+    ;
+}
+
+body{ background-image: url(backgroundtrabajo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 0px 20px;
+    height: 720px;
+    width: 1495px;  
+} 
+
+header {
+    display:flex;
+    justify-content:space-between;
+    margin: 10px 30px 10px 30px;
+    padding:0px 15px 0px 15px;}
+
+
+.logo {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.recorridodelapagina {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 825px;
+    height: 60px;
+
+}
+
+.sindecorado {
+    text-decoration:none;
+    color:black;
+}
+
+
+
+.espacioentrerecorrido {
+    display:flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: 175px;
+}
+
+
+
+.registroycompra {
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 223px;
+
+}
+
+.separaciondeiconos {
+    display:flex;
+    justify-content: space-between;
+    width: 267px;
+    margin-right: 5px;
+
+}
+
+.botonesdeimagen {
+    font-weight: bold;
+    text-decoration: none; 
+    border:0px; 
+    background-color: transparent;}
+
+.linea {
+    height: 20px;
+}
+
+.botonsignin {
+    font-family:'Nunito', sans-serif; ;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.botonsigup {
+    background-color:transparent;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    font-size: 14px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: bold;
+}
+
+.iniciodesesion {
+    background-color:transparent;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    font-size: 14px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+}
+
+.textocentral {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-top: 155px;   
+}
+
+
+.titulo {
+    font-family:'Andine', sans-serif;
+    font-size: 60px;
+    letter-spacing: -2px;
+    color:black;
+    font-weight: 500;
+    margin: 0px 0px 0px 55px;
+    font-stretch: condensed;
+    word-spacing: 2px;   
+}
+
+.botondecompra { 
+font-family: 'Nunito Sans', sans-serif;
+font-size: 15px;
+font-weight: bolder;
+color:black;
+background-color: #FFFFFF;
+margin-left: 60px;
+margin-top: 45px;
+border-width: 3px;
+width: 145px;
+height: 40px;} /*padding*/
+
+.texto {display:flex;
+flex-direction: column;
+justify-content: flex-end;
+font-size: 16px;
+letter-spacing: -1px;
+color:#595959;
+margin-top: 120px;
+margin-left: 53px;
+margin-bottom: 100px;
+}
+
+
+
+@media (max-width:1280px) and (min-width:720px) {
+    body ;}
+
